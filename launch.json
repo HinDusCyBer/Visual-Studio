@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "cis",
+      "request": "launch",
+      "mainClass": "cis",
+      "projectName": "Visual Studio(Languages)_cd64cce4"
+    },
+    {
+      "type": "java",
+      "name": "RSA",
+      "request": "launch",
+      "mainClass": "RSA",
+      "projectName": "Visual Studio(Languages)_cd64cce4"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/pvd14/Documents/Visual Studio(Languages)",
+      "program": "c:/Users/pvd14/Documents/Visual Studio(Languages)/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

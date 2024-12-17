@@ -1,0 +1,24 @@
+public static void main(String args[]) {
+		motorcycle m1=new motorcycle();
+        truck t1=new truck();
+        car c1=new car();
+
+	}
+}
+
+
+
+
+public static void main(String args[]) {
+		System.out.println("What Do U Have? :");
+		Scanner sc = new Scanner(System.in);
+		String input = sc.next();
+		if (input.equals("Motorcycle")) {
+			Motorcycle m1 = new Motorcycle(sc);
+		} else if (input.equals("Truck")) {
+			Truck t1 = new Truck(sc);
+		} else if (input.equals("Car")) {
+			Car c1 = new Car(sc);
+		} else {
+			System.out.println("No");
+		}
